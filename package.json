@@ -1,7 +1,7 @@
 {
   "name": "textbook-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
     "url": "https://github.com/nicksspark/textbook-app/issues"
   },
   "homepage": "https://github.com/nicksspark/textbook-app#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "electron": "^1.6.11"
+  }
 }
